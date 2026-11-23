@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#F5F0E6" />
+  <polygon points="400,200 600,300 400,400 200,300" fill="#FFFFFF" />
+  <polygon points="200,300 400,400 400,650 200,550" fill="#E8E8E8" />
+  <polygon points="600,300 400,400 400,650 600,550" fill="#D0D0D0" />
+  <polygon points="250,340 350,390 350,550 250,500" fill="#B0C4DE" opacity="0.5"/>
+  <polygon points="250,340 350,390 350,550 250,500" fill="none" stroke="#C6A56A" stroke-width="4"/>
+  <text x="400" y="730" font-family="sans-serif" font-size="28" fill="#174C38" text-anchor="middle" font-weight="bold" letter-spacing="4">OLA BIO</text>
+</svg>
