@@ -16,11 +16,8 @@ export const products = [
     description: "Boîte à gâteaux à couvercle rigide, finition mate élégante. Conçue pour protéger les créations pâtissières tout en mettant en valeur le produit.",
     dimensions: '25 × 25 × 10 cm (provisoire)',
     material: 'Carton alimentaire — donnée à confirmer',
-    image: '/images/boite-gateau-carton.jpg',
-    gallery: [
-      '/images/boite-gateau-carton.jpg',
-      '/images/boite-patisserie-blanche.jpg',
-    ],
+    image: '/images/boite-blanche.jpg',
+    gallery: ['/images/boite-blanche.jpg', '/images/boite-carton-1.jpg'],
     popular: true,
   },
   {
@@ -31,11 +28,8 @@ export const products = [
     description: "Boîte à gâteaux renforcée, finition premium pour les pièces d'exception.",
     dimensions: '30 × 30 × 12 cm (provisoire)',
     material: 'Carton double cannelure — donnée à confirmer',
-    image: '/images/boite-patisserie-blanche.jpg',
-    gallery: [
-      '/images/boite-patisserie-blanche.jpg',
-      '/images/boite-gateau-carton.jpg',
-    ],
+    image: '/images/boite-carton-1.jpg',
+    gallery: ['/images/boite-carton-1.jpg', '/images/boite-blanche.jpg'],
     popular: true,
   },
   {
@@ -46,8 +40,8 @@ export const products = [
     description: "Boîte avec séparateurs internes pour le transport sécurisé de quatre pâtisseries.",
     dimensions: '18 × 18 × 8 cm (provisoire)',
     material: 'Carton alimentaire — donnée à confirmer',
-    image: '/images/boite-patisserie-blanche.jpg',
-    gallery: ['/images/boite-patisserie-blanche.jpg'],
+    image: '/images/boite-carton-2.jpg',
+    gallery: ['/images/boite-carton-2.jpg'],
     popular: true,
   },
   {
@@ -58,8 +52,8 @@ export const products = [
     description: "Coffret rigide avec fenêtre transparente, idéal pour la présentation d'assortiments.",
     dimensions: '30 × 20 × 9 cm (provisoire)',
     material: 'Carton rigide — donnée à confirmer',
-    image: '/images/boite-cadeau-carton.jpg',
-    gallery: ['/images/boite-cadeau-carton.jpg'],
+    image: '/images/boite-cadeau.jpg',
+    gallery: ['/images/boite-cadeau.jpg'],
   },
   {
     id: 'sachet-viennoiseries-kraft',
@@ -69,8 +63,8 @@ export const products = [
     description: "Sachet en papier kraft alimentaire avec fenêtre transparente. Parfait pour la vente à emporter.",
     dimensions: '10 × 15 × 5 cm (provisoire)',
     material: 'Papier kraft alimentaire — donnée à confirmer',
-    image: '/images/sachet-kraft.jpg',
-    gallery: ['/images/sachet-kraft.jpg'],
+    image: '/images/sachet-papier.jpg',
+    gallery: ['/images/sachet-papier.jpg'],
     popular: true,
   },
   {
@@ -81,8 +75,8 @@ export const products = [
     description: "Emballage fenêtré permettant d'admirer la viennoiserie tout en la protégeant.",
     dimensions: '12 × 18 × 6 cm (provisoire)',
     material: 'Carton + film alimentaire — donnée à confirmer',
-    image: '/images/sachet-kraft.jpg',
-    gallery: ['/images/sachet-kraft.jpg'],
+    image: '/images/sachet-papier.jpg',
+    gallery: ['/images/sachet-papier.jpg'],
   },
   {
     id: 'boite-alimentaire-emporter',
@@ -92,8 +86,8 @@ export const products = [
     description: "Boîte alimentaire conçue pour le transport de plats préparés.",
     dimensions: '25 × 20 × 10 cm (provisoire)',
     material: 'Carton alimentaire — donnée à confirmer',
-    image: '/images/boite-emporter-carton.jpg',
-    gallery: ['/images/boite-emporter-carton.jpg'],
+    image: '/images/emballage-neutre.jpg',
+    gallery: ['/images/emballage-neutre.jpg'],
   },
   {
     id: 'barquette-alimentaire-kraft',
@@ -103,8 +97,8 @@ export const products = [
     description: "Barquette en carton kraft sans plastique, idéale pour la restauration rapide.",
     dimensions: '20 × 15 × 6 cm (provisoire)',
     material: 'Carton kraft — donnée à confirmer',
-    image: '/images/boite-emporter-carton.jpg',
-    gallery: ['/images/boite-emporter-carton.jpg'],
+    image: '/images/boite-kraft-1.jpg',
+    gallery: ['/images/boite-kraft-1.jpg'],
   },
   {
     id: 'carton-personnalise-moyen',
@@ -114,8 +108,8 @@ export const products = [
     description: "Carton d'expédition personnalisable avec votre logo et vos couleurs.",
     dimensions: '40 × 30 × 30 cm (provisoire)',
     material: 'Carton ondulé — donnée à confirmer',
-    image: '/images/carton-personnalise.jpg',
-    gallery: ['/images/carton-personnalise.jpg'],
+    image: '/images/cartons-empiles.jpg',
+    gallery: ['/images/cartons-empiles.jpg'],
     popular: true,
   },
   {
@@ -126,8 +120,8 @@ export const products = [
     description: "Carton double cannelure pour un transport sécurisé de produits fragiles.",
     dimensions: '50 × 40 × 40 cm (provisoire)',
     material: 'Double cannelure — donnée à confirmer',
-    image: '/images/boite-carton-kraft.jpg',
-    gallery: ['/images/boite-carton-kraft.jpg'],
+    image: '/images/boite-carton-2.jpg',
+    gallery: ['/images/boite-carton-2.jpg'],
   },
   {
     id: 'kit-emballages-pro',
@@ -137,8 +131,8 @@ export const products = [
     description: "Kit d'emballages variés pour les nouveaux établissements.",
     dimensions: 'Lot varié (provisoire)',
     material: 'Mixte — donnée à confirmer',
-    image: '/images/kit-emballages.jpg',
-    gallery: ['/images/kit-emballages.jpg'],
+    image: '/images/emballage-neutre.jpg',
+    gallery: ['/images/emballage-neutre.jpg'],
   },
   {
     id: 'assortiment-pro-patisserie',
@@ -148,8 +142,8 @@ export const products = [
     description: "Assortiment pensé pour les pâtisseries haut de gamme.",
     dimensions: 'Lot varié (provisoire)',
     material: 'Mixte — donnée à confirmer',
-    image: '/images/boite-cadeau-carton.jpg',
-    gallery: ['/images/boite-cadeau-carton.jpg'],
+    image: '/images/boite-cadeau.jpg',
+    gallery: ['/images/boite-cadeau.jpg'],
   },
 ];
 
